@@ -27,6 +27,11 @@
     <link href="../static/css/lobipanel.min.css" rel="stylesheet">
     <link href="../static/css/style-dashboard.css" rel="stylesheet">
 
+    <!-- ty add for hover effect -->
+    <link rel="stylesheet" href="../static/css/styleT.css">
+    <link rel="stylesheet" href="../static/css/d3StyleT.css">
+    
+
 </head>
 
 <body>
@@ -34,32 +39,32 @@
         <div class="nano">
             <div class="nano-content">
                 <ul>
-                    <li class="active">
+                    <!-- <li class="active">
                         <a class="sidebar-sub-toggle"><i class="ti-home"></i> Dashboard <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
                             <li><a href="index.html">Dashboard 1</a></li>
 
                         </ul>
-                    </li>
+                    </li> -->
 
 
-                    <li><a href="#"><i class="ti-user"></i> Profile</a></li>
-                    <li><a href="#"><i class="ti-layout-grid2-alt"></i> Website</a></li>
+                    <!-- <li><a href="#"><i class="ti-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="ti-layout-grid2-alt"></i> Website</a></li> -->
                     <li>
                         <a class="sidebar-sub-toggle"><i class="ti-layout"></i>Visualizations<span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
                             <li><a href="/map">Map</a></li>
-                            <li><a href="/scatter">Scatter Chart</a></li>
+                            <!-- <li><a href="/scatter">Scatter Chart</a></li> -->
                             <li><a href="/filter_table">Filter Table</a></li>
-                            <li><a href="#">Pie Chart</a></li>
+                            <!-- <li><a href="#">Pie Chart</a></li>
                             <li><a href="#">Images</a></li>
-                            <li><a href="#">Images</a></li>
+                            <li><a href="#">Images</a></li> -->
 
                         </ul>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="sidebar-sub-toggle"><i class="ti-panel"></i>Raw Data <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
@@ -70,26 +75,26 @@
 
 
                         </ul>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <a class="sidebar-sub-toggle"><i class="ti-files"></i>Documentation<span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
                             <li><a href="#">Housing Info </a></li>
                             <li><a href="#">School Info</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="sidebar-sub-toggle"><i class="ti-target"></i> GitHub <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="https://github.com/login">Login</a></li>
+                            <!-- <li><a href="https://github.com/login">Login</a></li> -->
                             <li><a href="https://github.com/Krla20/Project-2">Project 2 Repo</a></li>
 
                         </ul>
                     </li>
 
-                    <li><a><i class="ti-close"></i> Logout</a></li>
+                    <!-- <li><a><i class="ti-close"></i> Logout</a></li> -->
                 </ul>
             </div>
         </div>
@@ -104,7 +109,7 @@
                 </a>
             </div>
             <div class="hamburger sidebar-toggle">
-                <span class="ti-menu"></span>
+                <span class="ti-menu">Navigation</span>
             </div>
         </div>
         <div class="pull-right p-r-15">
@@ -509,7 +514,7 @@
                         <div class="col-lg-12">
                             <div class="card alert">
                                 <div class="card-header">
-                                    <h4>Team Total Completed </h4>
+                                    <h4>Interactive Chart Presenting Price Statistics for Neighborhoods</h4>
                                     <div class="card-header-right-icon">
                                         <ul>
                                             <li class="card-close" data-dismiss="alert"><i class="ti-close"></i></li>
@@ -829,8 +834,28 @@
                         <!-- <script src="../static/js/Chart.bundle-dashboard.js"></script> -->
                         <script src="../static/js/dashboard-charts.js"></script>
                         <!-- // Chart js -->
+
+                        <!-- *************************** -->    
+                        <!-- ty comment out - if live - it will prevent chart from showing -->
+                        <!-- *************************** -->
+
                         <!--  Datamap -->
                         <!-- <script src="../static/js/datamap/d3.min.js"></script> -->
+
+                        <!-- *************************** -->    
+                        <!-- ty comment out - if live - it will prevent chart from showing -->
+                        <!-- *************************** -->
+
+
+                        <!-- ty add to get hover -->
+
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
+                        <!-- end of ty add to get hover-->
+
                         <script src="../static/js/datamap/topojson.js"></script>
                         <script src="../static/js/datamap/datamaps.world.min.js"></script>
                         <script src="../static/js/datamap/datamap-init.js"></script>
