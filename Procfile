@@ -1,1 +1,1 @@
-web: pip install --upgrade pandas --force && gunicorn app:app runserver --bind 0.0.0.0:$PORT
+web: gunicorn app:app runserver --bind 0.0.0.0:$PORT
