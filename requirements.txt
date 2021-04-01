@@ -1,5 +1,5 @@
 dnspython
-Flask==0.8
+Flask
 itsdangerous
 Jinja2
 MarkupSafe
