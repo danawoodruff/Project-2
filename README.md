@@ -3,7 +3,7 @@
 <body>
 <p>
 <h2>Real Estate Dashboard - with user interactivity</h2>
-The project provides a visualization of GeoJSON real estate data utilizing Leaflet, JavaScript, Mapbox, and deployed utilizing Flask and Heroku.
+The project provides a visualization of GeoJSON real estate data utilizing Leaflet, JavaScript, Mapbox, and deployed utilizing Flask and Heroku.<a href="https://dashboard.heroku.com/apps/apple-crisp-42918">Heroku.</a><br>
 
 <h3>Data</h3>
 Data was sourced from the Houston Association of REALTORS® and downloaded as a .csv.<a href="https://www.HAR.com"> Visit HAR.</a>
