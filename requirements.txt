@@ -13,5 +13,5 @@ SQLAlchemy
 Werkzeug
 plotly
 Flask-SQLAlchemy
-gunicorn==0.14.2
+gunicorn
 requests==0.11.1
