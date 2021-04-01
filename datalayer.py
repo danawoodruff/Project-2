@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, inspect, join, outerjoin, MetaData, Table
 import psycopg2
 import pandas as pd
 import numpy as np
-# from secrets import username, password
+from secrets import username, password
 import json
 # from config import connect_string
 
