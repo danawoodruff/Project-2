@@ -8,7 +8,7 @@ import psycopg2
 import pandas as pd
 from secrets import username, password
 import json
-import os
+# import os
 from datalayer import Datalayer
 
 #Work around to guarantee logic.js does not cache
